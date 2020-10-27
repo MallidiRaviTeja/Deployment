@@ -1,7 +1,11 @@
 package com.teja.deployment;
 
+import org.testng.annotations.Test;
+
 public class Simple {
-public static void main(String[] args) {
+	
+@Test	
+public static void deploymentMethod() {
 	System.out.println("Welcome to deployment");
 }
 }
